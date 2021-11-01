@@ -51,23 +51,34 @@ header{
 
 
 .bar{
+    display: flex;
     margin-top: 20px;
     margin-right: 20px;
     z-index: 999;
-    display: inline;
     padding-top: 40px;
+    
 }
    
 a{
     padding:8px;
-    background-color:#4433;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
-   
- }
+    text-decoration: none;
+}
+
+
  a.heihei{
      background-color: lightblue;
  }
+ div .home{
+    background-color: black;
+}
+ /* #about div{
+     display: flex;
+     justify-content: space-evenly; */
+ 
+   
+
 
 .only{
     padding-left: 30px;
@@ -156,6 +167,31 @@ img.pic {
     display: flex;
     justify-items:center;
 }
+
+.pic_box1{
+    margin-right: 2%;
+}
+.pic_box2{
+    margin-right: 2%;
+}
+.pic_box3{
+    margin-right: 2%;
+}
+.pic_box4{
+    margin-right: 2%;
+}
+.pic_box5{
+    margin-right: 2%;
+}
+.pic_box6{
+    margin-right: 2%;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
 @media (max-width: 500px) {
     
 }
