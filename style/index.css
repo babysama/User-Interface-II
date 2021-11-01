@@ -156,6 +156,9 @@ img.pic {
     display: flex;
     justify-items:center;
 }
+@media (max-width: 500px) {
+    
+}
 
 
 
