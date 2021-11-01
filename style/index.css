@@ -203,7 +203,66 @@ h3{
 }
 
 
-@media (max-width: 500px) {
+ @media (max-width:800px){
+    .myname{
+    width: 40%;
+    font-size: 6rem;
+    }
+   
+   #about{
+       flex-wrap: wrap;
+       
+
+   }
+   div.pic_box1{
+       width: 70px;
+   }
+   div.pic_box2{
+       width: 70px;
+   }
+   div.pic_box3{
+       width: 70px;
+   }
+.pic_box4{
+    width: 70px;
+}
+.pic_box5{
+    width: 70px;
+}
+.pic_box6{
+    width: 70px;
+}
+} 
+@media (max-width:500px){
+    .myname{
+        margin-left: 30%;
+        font-size: 6rem;
+        
+    }
+    ul a{
+        display: block;
+        width: 100%;
+        font-size: 5rem;
+    }
+    ul.only{
+        width: 100%;
+        margin-top: 40%;
+       margin-left: -80%;
+    }
+    #top{
+        width: 120%;
+        height: 350px;
+        margin-left: 4%;
+
+    }
+    h2{
+        font-size: 7rem;
+        margin-top: -10%;
+    }
+    #about{
+      margin-top: 20%;
+    }
+    
     
 }
 
