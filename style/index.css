@@ -51,23 +51,34 @@ header{
 
 
 .bar{
+    display: flex;
     margin-top: 20px;
     margin-right: 20px;
     z-index: 999;
-    display: inline;
     padding-top: 40px;
+    
 }
    
 a{
     padding:8px;
-    background-color:#4433;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
-   
- }
+    text-decoration: none;
+}
+
+
  a.heihei{
      background-color: lightblue;
  }
+ div .home{
+    background-color: black;
+}
+ /* #about div{
+     display: flex;
+     justify-content: space-evenly; */
+ 
+   
+
 
 .only{
     padding-left: 30px;
@@ -150,11 +161,109 @@ img.pic {
     display: flex;
 
 }
-.bottom{
-    width:100%;
-    text-align:center;
-    display: flex;
-    justify-items:center;
+.cm{
+    height: 200px;
+  position: relative;
+  
+}
+.vertical-center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.pic_box1{
+    margin-right: 2%;
+}
+.pic_box2{
+    margin-right: 2%;
+}
+.pic_box3{
+    margin-right: 2%;
+}
+.pic_box4{
+    margin-right: 2%;
+}
+.pic_box5{
+    margin-right: 2%;
+}
+.pic_box6{
+    margin-right: 2%;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+ @media (max-width:800px){
+    .myname{
+    width: 40%;
+    font-size: 6rem;
+    }
+   
+   #about{
+       flex-wrap: wrap;
+       
+
+   }
+   div.pic_box1{
+       width: 70px;
+   }
+   div.pic_box2{
+       width: 70px;
+   }
+   div.pic_box3{
+       width: 70px;
+   }
+.pic_box4{
+    width: 70px;
+}
+.pic_box5{
+    width: 70px;
+}
+.pic_box6{
+    width: 70px;
+}
+} 
+@media (max-width:500px){
+    .myname{
+        margin-left: 30%;
+        font-size: 6rem;
+        
+    }
+    ul a{
+        display: block;
+        width: 100%;
+        font-size: 5rem;
+    }
+    ul.only{
+        width: 100%;
+        margin-top: 40%;
+       margin-left: -80%;
+    }
+    #top{
+        width: 120%;
+        height: 350px;
+        margin-left: 4%;
+
+    }
+    h2{
+        font-size: 7rem;
+        margin-top: -10%;
+    }
+    #about{
+      margin-top: 20%;
+    }
+    
+    
 }
 
 
