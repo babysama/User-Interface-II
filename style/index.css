@@ -161,12 +161,23 @@ img.pic {
     display: flex;
 
 }
-.bottom{
-    width:100%;
-    text-align:center;
-    display: flex;
-    justify-items:center;
+.cm{
+    height: 200px;
+  position: relative;
+  
 }
+.vertical-center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
 
 .pic_box1{
     margin-right: 2%;
